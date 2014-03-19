@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="/static/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/hint.css/1.3.0/hint.min.css">
+	<link rel="stylesheet" href="/static/style.css">
+	<title>Upload you file and share on the go!</title>
+</head>
+<body>
+	    <div id="center">
+		 <h2>Dropbox share On the go!</h2>
+		<form action="/upload" id="ft-upload-form" method="POST" enctype="multipart/form-data">
+		<label for="email_add">Enter Email(s)someone@domain.com,somebody@domain2.com</label>
+		<textarea name="email_add" id="email_add" onfocus="setbg('#e5fff3');"></textarea>
+		<br><br>
+		<label for="phone_add">Enter Phone number(s)ex-919999999999,919222222222(add country code without "+")</label>
+		<textarea name="phone_add" id="phone_add" onfocus="setbg('#e5fff3');"></textarea>
+		<br><br><br>
+	    <div id ="ft-icon">
+		<span class="hint--bottom" data-hint="Upload file!"><img src="/static/upload.png"></span>
+		</div>
+		<input type="file" id="ft-file" name="uploads" />
+		</form>
+		<div class="ft-progress">
+        <div class="ft-bar"></div >
+        <div class="ft-percent">0%</div >
+		</div>
+		<div id="ft-response"></div>
+        
+
+
+
+	</div>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="/static/js/jquery.custom.form.min.js"></script>
+	<script src="/static/js/upload.js"></script>
+	<script src="/static/js/JSON.min.js"></script>
+</body>
+</html>

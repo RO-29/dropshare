@@ -1,0 +1,29 @@
+body { font-family: 'Palatino', sans-serif; font-size: 15pt; }
+#center { margin: 25px 0 0 35%; }
+input { border: 0px; }
+.ft-progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.ft-bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.ft-percent { position:absolute; display:inline-block; top:3px; left:48%; }
+#ft-file{visibility: hidden;};
+
+#ft-upload { background-color: #ddd; font-size: 25pt; padding: 100px; }
+#ft-upload:hover { background-color: orange; cursor: pointer; }
+
+textarea#email_add {
+	width: 600px;
+	height: 100px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+textarea#phone_add {
+	width: 600px;
+	height: 100px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
