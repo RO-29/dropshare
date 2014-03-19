@@ -1,9 +1,10 @@
 ##What it does?
 
 It's a simple nodejs server which uploads a file to user dropbox and then generates some stat based on that file and also it sends the uploaded file link and stat(s) to Predefind Email list and Whatsapp contacts.
+Special thanks to <a href= "https://github.com/tgalal/yowsup">tgalal</a> for his Awesome Whatsapp Hack!
 
 ##Demo
-http://www.dbxshare.tk:8080/
+http://www.dropshare.tk:8080/
 
 ##What is the need for this?
 
@@ -27,7 +28,6 @@ Follow this guide <a target=_blank href="https://www.dropbox.com/developers/refe
 
 ### TODO
 
- * Whatsapp integration.
  * Store Email/Contacts list in redis.
  * Provide some auth layer.
  * Copy Files in Friends (directly) Dropbox.
