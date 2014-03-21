@@ -4,7 +4,7 @@ It's a simple nodejs server which uploads a file to user dropbox and then genera
 Special thanks to <a href= "https://github.com/tgalal/yowsup">tgalal</a> for his Awesome Whatsapp Hack!
 
 ##Demo
-http://www.dropshare.tk:8080/
+http://162.243.109.90:5000/
 
 ##What is the need for this?
 
