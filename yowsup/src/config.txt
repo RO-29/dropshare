@@ -15,6 +15,6 @@
 ## Actual config starts below ##
 
 cc=91
-phone=919540638009
-id=0000000000
-password=XqMO7PE4mUB/2HLeRTLthPedMdg=
+phone=
+id=
+password=
